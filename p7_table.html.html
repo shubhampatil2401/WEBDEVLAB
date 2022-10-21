@@ -1,0 +1,109 @@
+
+<!-- saved from url=(0035)http://127.0.0.1:5500/p7_table.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Time Table</title>
+</head>
+<body bgcolor="skyblue">
+ <h1><font color="red"><center>SSBT Art,Commerce And 
+<br>Science Collage,Bambhori (Jalgaon)</center></font></h1>
+ <table border="3" cellspacing="6" align="center" bgcolor="yellow">
+ <tbody><tr>
+ <th colspan="8" align="center">Time 
+Table</th></tr>
+ <tr>
+ <th align="center">Day/Time</th> 
+ <th align="center">8:15-9:15</th>
+ <th align="center">9:15-10:15</th>
+ <th align="center">10:15-10:45</th> 
+ <th align="center">10:45-11:45</th>
+ <th align="center">11:45-12:45</th>
+ <th align="center">12:45-01:45</th> 
+ </tr>
+ <tr>
+ <th align="center">MON</th> 
+ <td align="center">BCA 101</td>
+ <td align="center">BCA 104</td>
+ <td rowspan="6" align="center">L<br>U<br> 
+N<br>C<br>H
+ </td><td colspan="2" align="center">BCA 
+105(B2)/BCA107(B1)</td>
+ <td align="center">---</td></tr>
+ <tr>
+ <th align="center">TUE</th> 
+ <td align="center">BCA 101</td>
+ <td align="center">BCA 107(B2)</td>
+ <td align="center">BCA 107(B1)</td>
+ <td align="center">BCA 103</td>
+ <td align="center">---</td> 
+ </tr>
+ <tr>
+ <th align="center">WED</th> 
+ <td colspan="2" align="center">BCA 106(B2)BCA 
+106(B1)</td>
+ <td align="center">BCA 103</td>
+ <td align="center">BCA 102</td>
+ <td align="center">BCA 104</td> 
+ </tr>
+ <tr>
+ <th align="center">THU</th> 
+ <td colspan="2" align="center">BCA 106(B1)BCA 
+106(B2)</td>
+ <td align="center">BCA 104</td>
+ <td align="center">BCA 102</td>
+ <td align="center">BCA 103</td> 
+ </tr>
+ <tr>
+ <th align="center">FRI</th>
+ <td align="center">BCA 103</td>
+ <td align="center">BCA 101</td>
+ <td align="center">BCA 102</td> 
+ <td colspan="2" align="center">BCA 105(B1)BCA 
+107(B2)</td> 
+ </tr><tr>
+ <th align="center">SAT</th>
+ <td align="center">BCA 102</td>
+ <td align="center">BCA 101</td>
+ <td align="center">BCA 104</td> 
+ <td colspan="2" align="center">BCA 105(B2)BCA 
+107(B1)</td> 
+ </tr>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</tbody></table></body></html>
